@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * guitar router
+ * guitarra router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::guitar.guitar');
+module.exports = createCoreRouter('api::guitarra.guitarra');
